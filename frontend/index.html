@@ -1,20 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charliee Chatbot</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flirty Chatbot 😏</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div class="container">
-        <h1>Charliee Chatbot</h1>
-        <div id="chat-box" class="chat-box"></div>
-        <div class="input-container">
-            <input type="text" id="user-input" placeholder="Type your message...">
-            <button id="send-btn">Send</button>
-        </div>
+<body class="light-mode">
+    <h1 class="head">Flirty Chatbot 😏</h1>
+
+  <!-- Mode Toggle Button -->
+  <div class="mode-toggle">
+    <button id="toggleMode">🌙 Dark / ☀️ Light</button>
+  </div>
+
+  <!-- Popup Modal -->
+  <div id="popup" class="popup">
+    <img src="dark.jpg" alt="Mode Changed!">
+    <p id="popupText"></p>
+  </div>
+
+  <!-- Chat Container -->
+  <div class="chat-container">
+    <div id="chat-box" class="chat-box"></div>
+
+    <div class="input-area">
+      <input id="user-input" type="text" placeholder="Type something handsome 😘...">
+      <button id="send-btn">Send</button>
     </div>
-    <script src="script.js"></script>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
